@@ -1,9 +1,48 @@
 !!!
 %html
   %head
-    %title Sagha
+    %title Sadplan - Sistema de avaliação de desempenho e planejamento
     = stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true
     = javascript_include_tag "application", "data-turbolinks-track" => true
     = csrf_meta_tags
   %body
-    = yield
+    
+    .navbar.navbar-inverse
+      .navbar-inner.navbar-topo
+        .container.container-topo.container-logo
+          %a.brand.titulo
+            = image_tag "logo-prefeitura.png", height: "55px", width:"190px"
+      .navbar.menu-topo
+        .container-menu
+          %ul.nav.menu-lista
+            %li
+              = link_to "Página inicial", "#"    
+            %li
+              = link_to "Teste", "#"  
+            %li
+              = link_to "Teste", "#"
+            %li
+              = link_to "Teste", "#"
+            %li
+              = link_to "Teste", "#"
+            %li
+              = link_to "Teste", "#"  
+            %li
+              = link_to "Teste", "#"
+            %li
+              = link_to "Teste", "#"
+            %li
+              = link_to "Teste", "#"          
+
+    .container
+
+      <!-- Main hero unit for a primary marketing message or call to action -->
+      .hero-unit
+        = yield
+
+
+      %hr
+
+      %footer.rodape
+        %p
+          © SEPOG 2013        

@@ -11,3 +11,19 @@
  *= require_self
  *= require_tree .
  */
+
+.container-topo {background-color: #f1f1f0 !important;}
+.navbar-topo {background-color: #f1f1f0 !important;}
+.container-logo {width: 940px !important; margin: 0 auto;}
+.titulo {border:0 !important;}
+.menu-topo {background-color: #00ABA5 !important; height: 50px;}
+.menu-lista a {border:0 !important;}
+.menu-lista a:hover {color: #fff !important; text-decoration: underline !important;}
+.container-menu {width: 940px; margin: 0 auto;}
+.hero-unit {background-color: #f1f1f0 !important;}
+.rodape {background-color: #00aba5; padding: 20px 20px 5px 20px;}
+.rodape p {font-size: 11px; color: #fff;}
+/* Devise */
+.form-actions {background-color: #f1f1f0 !important; border: none !important; margin-top: -18px !important;}
+.button-login {background-color: #00ABA5 !important; width: 313px !important; margin-left: -20px;}
+.login-formulario {width: 320px;}
